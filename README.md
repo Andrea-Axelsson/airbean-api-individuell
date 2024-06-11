@@ -1,5 +1,13 @@
 # Airbean-API - Grupp 2
 
+#### Installera projektet
+
+npm install
+
+#### Användning
+
+npm run dev
+
 ## 1.
 
 `Som användare vill jag kunna se alla kaffesorter som går att beställa så jag får en överblick vad jag kan beställa och välja mellan.`
