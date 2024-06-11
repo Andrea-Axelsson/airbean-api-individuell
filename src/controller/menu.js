@@ -59,6 +59,7 @@ const UpdateMenuItem = async (id, updatedMenuItem) => {
     }
 }
 
+//Delete menu item in menu
 const DeleteMenuItem = async (id) => {
 
   try{

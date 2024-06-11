@@ -417,3 +417,22 @@ Behövs ej
 	"message": "Item deleted successfully"
 }
 ```
+
+#### POST - /campaign
+
+###### Request
+
+```
+{
+	"products": ["0Gu3mPAbONk1hy4P", "3IBqddqDtbAtIi2E"],
+	"price": 70
+}
+```
+
+##### Response
+
+```
+{
+	"message": "New campaign item added successfully"
+}
+```

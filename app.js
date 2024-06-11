@@ -7,6 +7,8 @@ import loggerMiddleware from "./src/middleware/logger.js";
 import notFoundMiddleware from "./src/middleware/notFound.js";
 import errorHandlerMiddleware from "./src/middleware/errorHandler.js";
 import adminUser from "./src/routes/admin.js"
+import campaignRouter from "./src/routes/campaign.js"
+
 
 const PORT = 8000;
 
@@ -25,6 +27,7 @@ app.use("/addMenu", companyRouter);
 app.use("/updateMenu", companyRouter);
 app.use("/deleteMenu", companyRouter);
 app.use("/adminLogIn", adminUser);
+app.use("/campaign", campaignRouter);
 
 
 app.use(notFoundMiddleware);
